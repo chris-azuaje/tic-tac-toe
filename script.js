@@ -4,7 +4,17 @@ const markO = document.querySelector('.mark-o');
 
 let playerX = true;
 let playerO = false;
-let game = ['', '', '', '', '', '', '', '', ''];
+let game = {
+  TL: null,
+  TM: null,
+  TR: null,
+  ML: null,
+  MM: null,
+  MR: null,
+  BL: null,
+  BM: null,
+  BR: null,
+};
 
 const displayX = function () {
   //   markX.hidden = false;
