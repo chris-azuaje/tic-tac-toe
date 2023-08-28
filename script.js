@@ -16,7 +16,7 @@ let game = {
   BR: null,
 };
 
-let falseVariable = true;
+let falseVariable = false;
 
 const displayX = function () {
   //   markX.hidden = false;
